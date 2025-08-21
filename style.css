@@ -1,0 +1,65 @@
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E6F9AF;
+            color: white;
+        }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: #E6F9AF;
+    }
+
+        h1, h2 {
+            font-family: "Oswald";
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+        }
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .grid-item {
+            background: #384E77;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(50% - 20px);
+            text-align: left;
+            max-width: 500px;
+        }
+        .grid-item img {
+            max-width: 500px;
+            height: auto;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .grid-item {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #8BBEB2;
+            color: white;
+        }
